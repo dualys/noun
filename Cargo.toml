@@ -2,9 +2,11 @@
 description = "Content-addressable 32-byte identifiers for immutable Merkle proofs"
 name = "noun"
 keywords = ["noun", "identifier", "merkle", "proof"]
-license.workspace = true
-edition.workspace = true
-version.workspace = true
-
+license = "AGPL-3.0-or-later"
+readme = "README.md"
+edition = "2024"
+version = "0.1.0"
+repository = "https://github.com/dualys/noun"
+categories = ["no-std"]
 [dependencies]
-blake3 = { workspace = true }
+blake3 = { version = "1.8.7", default-features = false }
